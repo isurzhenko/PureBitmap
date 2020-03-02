@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureBitmap", "PureBitmap\PureBitmap.csproj", "{257B95A6-C094-41A3-8085-22A9AAE45C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{3D04BF17-196E-421C-8B5E-64EE9F889DD8}"
+EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "IvanSurzhenko.PureBitmap", "IvanSurzhenko.PureBitmap\IvanSurzhenko.PureBitmap.nuproj", "{0B738F26-7153-4068-A9D7-A42AD39FE7A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{257B95A6-C094-41A3-8085-22A9AAE45C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257B95A6-C094-41A3-8085-22A9AAE45C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257B95A6-C094-41A3-8085-22A9AAE45C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257B95A6-C094-41A3-8085-22A9AAE45C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D04BF17-196E-421C-8B5E-64EE9F889DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D04BF17-196E-421C-8B5E-64EE9F889DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D04BF17-196E-421C-8B5E-64EE9F889DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D04BF17-196E-421C-8B5E-64EE9F889DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B738F26-7153-4068-A9D7-A42AD39FE7A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B738F26-7153-4068-A9D7-A42AD39FE7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B738F26-7153-4068-A9D7-A42AD39FE7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B738F26-7153-4068-A9D7-A42AD39FE7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
