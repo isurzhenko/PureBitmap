@@ -10,7 +10,7 @@
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Ivan Surzhenko</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <OutputType>Exe</OutputType>
     <RootNamespace>IvanSurzhenko.PureBitmap</RootNamespace>
     <UsePartialTypes>false</UsePartialTypes>
@@ -22,6 +22,7 @@
     <Title>PureBitmap</Title>
     <Summary>Fully managed implementation of ARGB32 Win Bitmap</Summary>
     <PackageProjectUrl>https://github.com/isurzhenko/PureBitmap</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
