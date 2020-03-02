@@ -5,6 +5,12 @@ Unfortunately, most of libraries are overkilled with many unecessary functionali
 
 So, let's do it in another way ;)
 
+# Current limitations
+
+1. Supports only generation of the bitmap (no plans in discoverable future).
+2. Supports only ARGB32 colorspace (probably, new colorspaces will appear soon)
+3. Supports plain old Win3.1 bitmap output (probably, will be gained later)
+
 # Sample
 ```
 var bmp = new ARGB32WinBitmap(2, 2);
