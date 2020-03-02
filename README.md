@@ -9,7 +9,8 @@ So, let's do it in another way ;)
 
 1. Supports only generation of the bitmap (no plans in discoverable future).
 2. Supports only ARGB32 colorspace (probably, new colorspaces will appear soon)
-3. Supports plain old Win3.1 bitmap output (probably, will be gained later)
+3. Supports only `PutPixel` operation (absolutely, it will support most common standard drawing things like `DrawRect`, `DrawLine`, etc)
+4. Supports plain old Win3.1 bitmap output (probably, will be gained later)
 
 # Sample
 ```
