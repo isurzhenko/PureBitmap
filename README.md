@@ -5,7 +5,7 @@ Unfortunately, most of libraries are overkilled with many unecessary functionali
 
 So, let's do it in another way ;)
 
-# Usage Sample
+# Sample
 ```
 var bmp = new ARGB32WinBitmap(2, 2);
 bmp.PutPixel(1, 1, ARGB32.Black);
