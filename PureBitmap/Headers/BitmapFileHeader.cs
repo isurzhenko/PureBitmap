@@ -6,7 +6,7 @@ namespace IvanSurzhenko.PureBitmap.Headers
     public class BitmapFileHeader
     {
         public String HeaderField { get; set; }
-        public uint Size { get; set; }
+        public uint Size { get; set; } = 12;
         public uint Reserved { get; set; } = 0;
         public uint PixelArrayAddress { get; set; } = 0;
 

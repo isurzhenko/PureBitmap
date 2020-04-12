@@ -8,14 +8,12 @@ namespace IvanSurzhenko.PureBitmap.Convertors
         public static byte[] FromUintToBytes(uint val)
         {
             var result = BitConverter.GetBytes(val);
-            Array.Reverse(result);
             return result;
         }
 
         public static byte[] FromUshortToBytes(ushort val)
         {
             var result = BitConverter.GetBytes(val);
-            Array.Reverse(result);
             return result;
         }
 

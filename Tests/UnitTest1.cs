@@ -16,20 +16,24 @@ namespace Tests
 
             bmp.PutPixel(1, 1, ARGB32.Black);
 
-            bmp.PutPixel(0, 0, ARGB32.White);
+            bmp.PutPixel(0, 0, ARGB32.Black);
+
+            bmp.PutPixel(0, 1, ARGB32.White);
+
+            bmp.PutPixel(1, 0, ARGB32.White);
 
             using (var stream = bmp.OutputStream())
             {
                 var imageSnapshot = new byte[]
                 {
-                    0x42, 0x4D, 0, 0, 0,
-                    42, 0, 0, 0, 0,
-                    0, 0, 0, 26, 0,
-                    12, 0, 2, 0, 2,
-                    0, 1, 0, 32, 0,
-                    0, 255, 255, 255, 255,
+                    0x42, 0x4D, 42, 0, 0,
                     0, 0, 0, 0, 0,
-                    0, 0, 0, 255, 0,
+                    26, 0, 0, 0, 12,
+                    0, 0, 0, 2, 0,
+                    2, 0, 1, 0, 32,
+                    0, 255, 0, 0, 0,
+                    255, 255, 255, 255, 255,
+                    255, 255, 255, 255, 0,
                     0, 0
                 };
                 var snapshotSize = imageSnapshot.Length;
