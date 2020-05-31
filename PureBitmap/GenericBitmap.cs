@@ -10,7 +10,7 @@ namespace IvanSurzhenko.PureBitmap
     {
         protected BitmapFileHeader BFH { get; set; } = new BitmapFileHeader();
 
-        protected DIBHeader DIBH { get; set; } = new DIBHeader();
+        protected DIBWin31Header DIBH { get; set; } = new DIBWin31Header();
 
         protected byte[] PixelMap { get; set; } = new byte[0];
 
