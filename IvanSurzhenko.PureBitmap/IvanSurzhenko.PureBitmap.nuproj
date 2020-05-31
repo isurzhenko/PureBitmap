@@ -7,7 +7,7 @@
     <ProjectGuid>{0B738F26-7153-4068-A9D7-A42AD39FE7A9}</ProjectGuid>
     <Description>https://github.com/isurzhenko/PureBitmap</Description>
     <PackageId>IvanSurzhenko.PureBitmap</PackageId>
-    <PackageVersion>1.2.0</PackageVersion>
+    <PackageVersion>1.2.1</PackageVersion>
     <Authors>Ivan Surzhenko</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
